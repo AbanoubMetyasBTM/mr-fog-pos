@@ -1,0 +1,33 @@
+@media print {
+    @page {
+        margin: 0;
+        size: 1350px;
+    }
+
+    * {
+        -webkit-print-color-adjust: exact;
+    }
+
+    .padding-bottom-70px {
+        padding: 10px;
+    }
+
+    header,
+    footer,
+    .footer-area,
+    .slim-footer,
+    .hide_at_print {
+        display: none;
+    }
+
+    .width_100_at_print {
+        width: 100% !important;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .padding-top-100px {
+        padding-top: 10px;
+    }
+
+}

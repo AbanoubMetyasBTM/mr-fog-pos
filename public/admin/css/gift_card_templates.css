@@ -1,0 +1,24 @@
+.gift_card_template_display {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+}
+
+.gift_card_template_display .bg_img {
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.gift_card_template_display .gift_card_template_position_item {
+    position: absolute;
+    z-index: 2;
+    cursor: move;
+}
+
+.gift_card_template_position_item.selected_item{
+    border: 1px solid red;
+}

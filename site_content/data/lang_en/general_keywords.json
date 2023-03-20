@@ -1,0 +1,13 @@
+{
+    "content_json": {
+        "are_your_sure": "Are Your Sure",
+        "yes": "Yes",
+        "no": "No",
+        "homepage": "Homepage",
+        "login_field_is_required": "Login Field Is Required",
+        "password_is_required": "Password Is Required",
+        "search": "Search",
+        "please_enter": "Please Enter",
+        "or_more_characters": "Or More Characters"
+    }
+}

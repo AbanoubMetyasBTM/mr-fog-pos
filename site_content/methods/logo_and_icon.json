@@ -1,0 +1,18 @@
+{
+    "method_name": "logo_and_icon",
+    "method_requirments": {
+        "imgs_fields": {
+            "fields": [
+                "logo",
+                "share_logo",
+                "icon"
+            ],
+            "customize": {}
+        }
+    },
+    "method_img": {
+        "alt": "",
+        "title": "",
+        "path": ""
+    }
+}

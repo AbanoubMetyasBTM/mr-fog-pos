@@ -1,0 +1,136 @@
+.btm_select_2_parent_div {
+    position: relative;
+}
+
+.btm_select_2_parent_div .left_icon {
+
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    font-size: 18px;
+
+}
+
+.btm_select_2_parent_div .right_icon {
+
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    font-size: 18px;
+
+}
+
+.btm_select_2_parent_div .cancel_icon {
+
+    display: none;
+    position: absolute;
+    right: 32px;
+    top: 11px;
+    font-size: 18px;
+    padding: 3px;
+    border-radius: 100%;
+    border: 1px solid red;
+    color: red;
+    cursor: pointer;
+
+}
+
+.btm_select_2_parent_div .search_box_div {
+
+    text-align: center;
+    position: sticky;
+    top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.form-control.btm_select_2_display_selected_text{
+    padding: 10px 30px 10px 10px;
+}
+
+.btm_select_2_parent_div .search_box {
+
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.btm_select_2_parent_div .filter_results {
+
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    min-width: 10rem;
+    margin: .125rem 0 0;
+    margin-top: 0px;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0 0 .25rem .25rem;
+
+    -webkit-box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%);
+    width: 100%;
+
+    border-color: rgba(128, 137, 150, 0.2);
+    border: 1px solid #ced4da;
+    border-top: none;
+    border-color: rgba(128, 137, 150, 0.2);
+
+}
+
+.btm_select_2_parent_div.active .form-control {
+    border-radius: 0;
+}
+
+.btm_select_2_parent_div.active .filter_results {
+    display: block;
+}
+
+
+.btm_select_2_parent_div .filter_results.add_height_limitation {
+
+    max-height: 240px;
+    overflow-y: scroll;
+
+}
+
+.btm_select_2_parent_div .filter_results .result_row,
+.btm_select_2_parent_div .filter_results p
+{
+
+    min-height: 40px;
+    width: 100%;
+    cursor: pointer;
+    padding: 4px 20px;
+    line-height: 34px;
+    overflow: hidden;
+    font-size: 12px;
+
+}
+
+.btm_select_2_parent_div .filter_results .result_row:hover {
+
+    background: #2b344a;
+    color: #FFF;
+
+}
+
+.btm_select_2_parent_div .filter_results .result_row.active {
+
+    background: #2b344a;
+    color: #FFF;
+
+}
+

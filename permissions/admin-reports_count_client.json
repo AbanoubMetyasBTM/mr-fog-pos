@@ -1,0 +1,9 @@
+{
+    "page_name": "admin\/reports_count_client",
+    "sub_sys": "admin",
+    "show_in_admin_panel": "0",
+    "hide_accept_buttons": "1",
+    "all_additional_permissions": [
+        "show_report"
+    ]
+}

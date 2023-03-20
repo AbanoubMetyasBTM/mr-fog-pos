@@ -1,0 +1,7 @@
+{
+    "page_name": "admin\/pages",
+    "sub_sys": "admin",
+    "show_in_admin_panel": "1",
+    "hide_accept_buttons": "0",
+    "all_additional_permissions": []
+}

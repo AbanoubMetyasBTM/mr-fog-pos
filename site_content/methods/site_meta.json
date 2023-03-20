@@ -1,0 +1,23 @@
+{
+    "method_name": "site_meta",
+    "method_requirments": {
+        "input_fields": {
+            "fields": [
+                "homepage_general_meta",
+                "homepage_meta_title",
+                "homepage_meta_desc",
+                "homepage_meta_keywords",
+                "all_pages_general_meta",
+                "login_meta_title",
+                "login_meta_desc",
+                "login_meta_keywords"
+            ],
+            "customize": {}
+        }
+    },
+    "method_img": {
+        "alt": "",
+        "title": "",
+        "path": ""
+    }
+}

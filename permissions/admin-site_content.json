@@ -1,0 +1,9 @@
+{
+    "page_name": "admin\/site_content",
+    "sub_sys": "admin",
+    "show_in_admin_panel": "1",
+    "hide_accept_buttons": "1",
+    "all_additional_permissions": [
+        "can_edit_content"
+    ]
+}

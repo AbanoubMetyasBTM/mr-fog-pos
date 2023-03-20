@@ -1,0 +1,10 @@
+{
+    "page_name": "admin\/employees_tasks_comments",
+    "sub_sys": "admin, branch_admin",
+    "show_in_admin_panel": "1",
+    "hide_accept_buttons": "1",
+    "all_additional_permissions": [
+        "add_action",
+        "delete_action"
+    ]
+}

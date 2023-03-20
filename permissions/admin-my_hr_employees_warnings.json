@@ -1,0 +1,9 @@
+{
+    "page_name": "admin\/my_hr_employees_warnings",
+    "sub_sys": "admin, branch_admin, employee",
+    "show_in_admin_panel": "0",
+    "hide_accept_buttons": "0",
+    "all_additional_permissions": [
+        "show_action"
+    ]
+}

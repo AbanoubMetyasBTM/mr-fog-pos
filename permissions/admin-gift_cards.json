@@ -1,0 +1,10 @@
+{
+    "page_name": "admin\/gift_cards",
+    "sub_sys": "admin, branch_admin, employee",
+    "show_in_admin_panel": "1",
+    "hide_accept_buttons": "1",
+    "all_additional_permissions": [
+        "add_action",
+        "show_action"
+    ]
+}

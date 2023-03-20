@@ -1,0 +1,24 @@
+{
+    "method_name": "general_keywords",
+    "method_requirments": {
+        "input_fields": {
+            "fields": [
+                "are_your_sure",
+                "yes",
+                "no",
+                "homepage",
+                "login_field_is_required",
+                "password_is_required",
+                "search",
+                "please_enter",
+                "or_more_characters"
+            ],
+            "customize": {}
+        }
+    },
+    "method_img": {
+        "alt": "",
+        "title": "",
+        "path": ""
+    }
+}

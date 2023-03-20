@@ -1,0 +1,12 @@
+{
+    "content_json": {
+        "homepage_general_meta": "Homepage General Meta",
+        "homepage_meta_title": "Homepage Meta Title",
+        "homepage_meta_desc": "Homepage Meta Desc",
+        "homepage_meta_keywords": "Homepage Meta Keywords",
+        "all_pages_general_meta": "All Pages General Meta",
+        "login_meta_title": "Login Meta Title",
+        "login_meta_desc": "Login Meta Desc",
+        "login_meta_keywords": "Login Meta Keywords"
+    }
+}

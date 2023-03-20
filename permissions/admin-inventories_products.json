@@ -1,0 +1,12 @@
+{
+    "page_name": "admin\/inventories_products",
+    "sub_sys": "admin, branch_admin",
+    "show_in_admin_panel": "1",
+    "hide_accept_buttons": "1",
+    "all_additional_permissions": [
+        "add_product",
+        "add_broken_product",
+        "move_product",
+        "show_inventories_products"
+    ]
+}

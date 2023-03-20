@@ -1,0 +1,10 @@
+{
+    "page_name": "admin\/products",
+    "sub_sys": "admin",
+    "show_in_admin_panel": "1",
+    "hide_accept_buttons": "0",
+    "all_additional_permissions": [
+        "delete_variant",
+        "show_product_skus"
+    ]
+}

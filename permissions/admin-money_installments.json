@@ -1,0 +1,17 @@
+{
+    "page_name": "admin\/money_installments",
+    "sub_sys": "admin",
+    "show_in_admin_panel": "1",
+    "hide_accept_buttons": "1",
+    "all_additional_permissions": [
+        "show_schedule_money",
+        "schedule_all_debt_money",
+        "add_schedule_debt_money",
+        "schedule_all_owed_money",
+        "add_schedule_owed_money",
+        "delete_schedule_money",
+        "edit_schedule_money",
+        "receive_money_installment"
+
+    ]
+}

@@ -1,0 +1,25 @@
+
+.editContentWrapper{
+    position: relative;
+}
+
+.editContentWrapper .admin_edit_content{
+    /*position: absolute;*/
+    width: 25px;
+    height: 25px;
+    top: -10px;
+    left: -15px;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    z-index: 100000;
+    background:#287dfa;
+    color:white;
+    font-size:12px;
+    line-height: 27px;
+    animation: heartBeat 1000ms infinite linear;
+}
+
+.show_admin_content_bg{
+    border: 3px solid #287dfa !important;
+}

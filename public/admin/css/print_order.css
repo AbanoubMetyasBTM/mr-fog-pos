@@ -1,0 +1,154 @@
+#invoice-POS {
+    padding: 2mm;
+    width: 400px;
+    background: #ffffff;
+    margin-left: 0;
+}
+
+#invoice-POS ::selection {
+    background: #f31544;
+    color: #FFF;
+}
+
+#invoice-POS ::moz-selection {
+    background: #f31544;
+    color: #FFF;
+}
+
+#invoice-POS h1 {
+    font-size: 1.5em;
+    color: #000000;
+}
+
+#invoice-POS h2 {
+    color: #000000;
+    font-size: 1.0em;
+}
+
+#invoice-POS h3 {
+    font-size: 0.8em;
+    color: #000000;
+}
+
+#invoice-POS p {
+    font-size: 0.7em;
+    color: #0a0a0a;
+    line-height: 1.2em;
+}
+
+#invoice-POS #top, #invoice-POS #mid, #invoice-POS #bot {
+    /* Targets all id with 'col-' */
+    border-bottom: 1px solid #EEE;
+}
+
+#invoice-POS #top {
+    min-height: 100px;
+}
+
+#invoice-POS #mid {
+    min-height: 80px;
+}
+
+#invoice-POS #bot {
+    min-height: 50px;
+}
+
+#invoice-POS #top .logo {
+    height: 70px;
+    width: 70px;
+    background-size: 60px 60px;
+    align-content: center;
+}
+
+#invoice-POS .clientlogo {
+    float: left;
+    height: 60px;
+    width: 60px;
+    background-size: 60px 60px;
+    border-radius: 50px;
+}
+
+#invoice-POS .info {
+    display: block;
+    margin-left: 0;
+}
+
+#invoice-POS .title {
+    float: right;
+}
+
+#invoice-POS .title p {
+    text-align: right;
+}
+
+#invoice-POS table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+#invoice-POS .tabletitle {
+    font-size: 0.55em;
+    background: #dad9d9;
+}
+
+#invoice-POS .tableOrderCostTitle {
+    font-size: 0.55em;
+}
+
+#invoice-POS .service {
+    border-bottom: 1px solid #EEE;
+}
+
+#invoice-POS .item {
+    width: 4mm;
+}
+
+#invoice-POS .itemtext {
+    font-size: 0.5em;
+    color: #000000;
+}
+
+#invoice-POS #legalcopy {
+    margin-top: 3mm;
+}
+
+#invoice-POS .legal {
+    font-size: 0.7em;
+}
+
+#branch_logo {
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80px !important;
+    max-height: 80px !important;
+}
+
+
+
+@media print {
+    header, .slim-header, .slim-footer, .hide_at_print
+    {
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+    #invoice-POS{
+        width: 100%;
+    }
+
+    @page {
+        margin: 0;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+
+}

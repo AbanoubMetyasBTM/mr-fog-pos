@@ -1,0 +1,9 @@
+{
+    "page_name": "admin\/reports_orders_items_categories_sales_quantity",
+    "sub_sys": "admin, branch_admin",
+    "show_in_admin_panel": "1",
+    "hide_accept_buttons": "1",
+    "all_additional_permissions": [
+        "show_report"
+    ]
+}
